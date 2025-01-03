@@ -1,59 +1,59 @@
 groups:
-  main: "&6&lBetter Chests"
-  storages: "&a&lStorages"
-  tool_machines: "&b&lTools & Machines"
-  materials: "&3&lMaterials"
-  cargo: "&e&lCargo"
+  main: "&6&l更好的箱子"
+  storages: "&a&l储存"
+  tool_machines: "&b&l工具 & 机器"
+  materials: "&3&l材料"
+  cargo: "&e&l货运"
 items:
   tip:
-    name: "&bTip"
+    name: "&b提示"
     lore:
-    - "&c&lDon't place too many drawers in one chunk!"
-    - "&c&lThe drawers will spawn 3 entities once they were placed."
-    - "&c&lYou might losing some items if you place too many drawers in one chunk."
+    - "&c&l不要在一个世界里放太多抽屉!"
+    - "&c&l抽屉一旦被放置，将会产生3个实体"
+    - "&c&l如果将太多抽屉放在一个抽屉里，可能会丢失一些物品。"
   gear_wheel:
-    name: "&bGear Wheel"
+    name: "&b箱子齿轮"
     lore:
-      - "&7A thing for crafting BC's things"
+      - "&7一个用来制作箱子的东西"
   chest_color_changer:
-    name: "&aChest Color Changer"
+    name: "&a箱子颜色修改器"
     lore:
-      - "&aRight-click to change the color of the BC chest"
-      - "&aShift + Right-click to cycle through colors"
+      - "&a右击 改变箱子颜色"
+      - "&aShift + 右击 循环更改颜色"
       - ""
-      - "&dCurrent color: &6NoColor"
+      - "&d当前颜色: &6无颜色"
       - ""
       - "&8⇨ &e⚡ &7 0 / 200 J"
   location_recorder:
-    name: "&aLocation Recorder"
+    name: "&a位置记录仪"
     lore:
-      - "&bShift + Right-click to record location"
-      - "&bRight-click to open the corresponding machine"
+      - "&bShift + 右击 记录位置"
+      - "&b右击 打开相应的机器"
   tightly_blistering_ingot:
-    name: "&eTightly Blistering Ingot"
+    name: "&e致密气泡锭"
     lore:
-      - "&7A high-hardness metal"
+      - "&7高硬度金属"
   tightly_blistering_plate:
-    name: "&eTightly Blistering Plate"
+    name: "&e致密起泡板"
     lore:
-      - "&7A high-hardness metal plate"
+      - "&7高硬度金属板"
   drawer:
-    name_lvl: "&bDrawer &aLv. &6%lvl%"
-    name_max: "&bDrawer &aLv. &6MAX"
+    name_lvl: "&b抽屉 &aLv. &6%lvl%"
+    name_max: "&b抽屉 &aLv. &6MAX"
     lore:
-      - "&bRight-click grab 64 items (when your hand is empty)"
-      - "&bRight-click to store items that you hand in"
-      - "&dCapacity: %capacity%"
+      - "&b空手右击 抓取64个物品"
+      - "&b右击 储存你手中的物品"
+      - "&d容量: %capacity%"
   infinity_expansion_like_storage:
-    name_lvl: "&bInfinity Expansion-like Storage &aLv. &6%lvl%"
-    name_max: "&bInfinity Expansion-like Storage &aLv. &6MAX"
+    name_lvl: "&b无尽扩展式存储 &aLv. &6%lvl%"
+    name_max: "&b无尽扩展式存储 &aLv. &6MAX"
     lore:
-      - "&bInfinityExpansion-like storage unit"
-      - "&dCapacity: %capacity%"
-    status: "&aStatus"
-    error: "&c&lERROR"
+      - "&b无尽贪婪式储存单元"
+      - "&d容量: %capacity%"
+    status: "&a状态"
+    error: "&c&l错误"
   p2p_transfer:
-    name: "&aPoint-to-Point Transfer"
+    name: "&a点对点传输"
     lore:
-      - "&b&lA great tool for transferring items between two blocks"
-      - "&d&lPlace and ready to use"
+      - "&b&l在两个方块之间转移物品的好工具"
+      - "&d&l放置并准备使用"
