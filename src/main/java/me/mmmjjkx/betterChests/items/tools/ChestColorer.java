@@ -53,7 +53,7 @@ public class ChestColorer extends SimpleSlimefunItem<ItemUseHandler> implements 
             Optional<Block> block = e.getClickedBlock();
             if (block.isPresent()) {
                 if (!Slimefun.getProtectionManager().hasPermission(p, block.get(), Interaction.INTERACT_BLOCK)) {
-                    p.sendMessage("§cYou don't have permission to interact with this block.");
+                    p.sendMessage("§c您无权与当前方块交互");
                     return;
                 }
             }
@@ -91,11 +91,11 @@ public class ChestColorer extends SimpleSlimefunItem<ItemUseHandler> implements 
                             ColorMaterials color = ColorMaterials.values()[index];
                             b.setType(color.getMaterial());
                         } else {
-                            p.sendMessage("§cThe item is out of charge.");
+                            p.sendMessage("§c此物品已耗尽");
                         }
                     }
                 } else {
-                    p.sendMessage("§cYou need to right-click at a block to use this item.");
+                    p.sendMessage("§c你需要右击方块来使用此物品");
                 }
             }
         };
