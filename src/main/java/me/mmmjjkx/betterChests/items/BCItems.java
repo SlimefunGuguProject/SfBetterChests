@@ -89,7 +89,7 @@ public class BCItems {
     // Storages
     public static final SimpleChest CHEST_27 = new SimpleChest(
             27,
-            new SlimefunItemStack("BC_CHEST_27", Material.GLASS, "&b&lSimple Chest"),
+            new SlimefunItemStack("BC_CHEST_27", Material.GLASS, "&b&l简单箱子"),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                     null, null, null,
@@ -98,7 +98,7 @@ public class BCItems {
             });
     public static final OnlyInputChest CHEST_INPUT_27 = new OnlyInputChest(
             27,
-            new SlimefunItemStack("BC_CHEST_INPUT_27", Material.GLASS, "&b&lSimple Chest &c&l(Input Only)"),
+            new SlimefunItemStack("BC_CHEST_INPUT_27", Material.GLASS, "&b&l简单箱子 &c&l(仅输入)"),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                     null, new ItemStack(Material.HOPPER), null,
@@ -107,7 +107,7 @@ public class BCItems {
             });
     public static final OnlyOutputChest CHEST_OUTPUT_27 = new OnlyOutputChest(
             27,
-            new SlimefunItemStack("BC_CHEST_OUTPUT_27", Material.GLASS, "&b&lSimple Chest &c&l(Output Only)"),
+            new SlimefunItemStack("BC_CHEST_OUTPUT_27", Material.GLASS, "&b&l简单箱子 &c&l(仅输出)"),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                     null, new ItemStack(Material.REDSTONE), null,
@@ -116,7 +116,7 @@ public class BCItems {
             });
     public static final SimpleChest CHEST_36 = new SimpleChest(
             36,
-            new SlimefunItemStack("BC_CHEST_36", Material.GLASS, "&b&lBig Chest"),
+            new SlimefunItemStack("BC_CHEST_36", Material.GLASS, "&b&l大箱子"),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                     null, null, null,
@@ -125,7 +125,7 @@ public class BCItems {
             });
     public static final OnlyInputChest CHEST_INPUT_36 = new OnlyInputChest(
             36,
-            new SlimefunItemStack("BC_CHEST_INPUT_36", Material.GLASS, "&b&lBig Chest &c&l(Input Only)"),
+            new SlimefunItemStack("BC_CHEST_INPUT_36", Material.GLASS, "&b&l大箱子 &c&l(仅输入)"),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                     null, new ItemStack(Material.HOPPER), null,
@@ -134,7 +134,7 @@ public class BCItems {
             });
     public static final OnlyOutputChest CHEST_OUTPUT_36 = new OnlyOutputChest(
             36,
-            new SlimefunItemStack("BC_CHEST_OUTPUT_36", Material.GLASS, "&b&lBig Chest &c&l(Output Only)"),
+            new SlimefunItemStack("BC_CHEST_OUTPUT_36", Material.GLASS, "&b&l大箱子 &c&l(仅输出)"),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                     null, new ItemStack(Material.REDSTONE), null,
@@ -143,7 +143,7 @@ public class BCItems {
             });
     public static final SimpleChest CHEST_45 = new SimpleChest(
             45,
-            new SlimefunItemStack("BC_CHEST_45", Material.GLASS, "&b&lBigger Chest"),
+            new SlimefunItemStack("BC_CHEST_45", Material.GLASS, "&b&l巨型箱子"),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                     null, null, null,
@@ -152,7 +152,7 @@ public class BCItems {
             });
     public static final OnlyInputChest CHEST_INPUT_45 = new OnlyInputChest(
             45,
-            new SlimefunItemStack("BC_CHEST_INPUT_45", Material.GLASS, "&b&lBigger Chest &c&l(Input Only)"),
+            new SlimefunItemStack("BC_CHEST_INPUT_45", Material.GLASS, "&b&l巨型箱子 &c&l(仅输入)"),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                     null, new ItemStack(Material.HOPPER), null,
@@ -161,7 +161,7 @@ public class BCItems {
             });
     public static final OnlyOutputChest CHEST_OUTPUT_45 = new OnlyOutputChest(
             45,
-            new SlimefunItemStack("BC_CHEST_OUTPUT_45", Material.GLASS, "&b&lBigger Chest &c&l(Output Only)"),
+            new SlimefunItemStack("BC_CHEST_OUTPUT_45", Material.GLASS, "&b&l巨型箱子 &c&l(仅输出)"),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                     null, new ItemStack(Material.REDSTONE), null,
@@ -170,7 +170,7 @@ public class BCItems {
             });
     public static final SimpleChest CHEST_54 = new SimpleChest(
             54,
-            new SlimefunItemStack("BC_CHEST_54", Material.GLASS, "&b&lThe Biggest Chest"),
+            new SlimefunItemStack("BC_CHEST_54", Material.GLASS, "&b&l最大号箱子"),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                     null, null, null,
@@ -179,7 +179,7 @@ public class BCItems {
             });
     public static final OnlyInputChest CHEST_INPUT_54 = new OnlyInputChest(
             54,
-            new SlimefunItemStack("BC_CHEST_INPUT_54", Material.GLASS, "&b&lThe Biggest Chest &c&l(Input Only)"),
+            new SlimefunItemStack("BC_CHEST_INPUT_54", Material.GLASS, "&b&l最大号箱子 &c&l(仅输入)"),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                     null, new ItemStack(Material.HOPPER), null,
@@ -188,7 +188,7 @@ public class BCItems {
             });
     public static final OnlyOutputChest CHEST_OUTPUT_54 = new OnlyOutputChest(
             54,
-            new SlimefunItemStack("BC_CHEST_OUTPUT_54", Material.GLASS, "&b&lThe Biggest Chest &c&l(Output Only)"),
+            new SlimefunItemStack("BC_CHEST_OUTPUT_54", Material.GLASS, "&b&l最大号箱子 &c&l(仅输出)"),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                     null, new ItemStack(Material.REDSTONE), null,
