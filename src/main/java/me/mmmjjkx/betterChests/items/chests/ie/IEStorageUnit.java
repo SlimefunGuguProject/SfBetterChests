@@ -66,15 +66,15 @@ public final class IEStorageUnit extends SlimefunItem implements InventoryBlock,
     static final int INTERACT_SLOT = 22;
 
     private static final ItemStack INTERACTION_ITEM = new CustomItemStack(Material.LIME_STAINED_GLASS_PANE,
-            "&a快捷操作",
-            "&b左击: &7撤回1个物品",
-            "&b右击: &7撤回1组物品",
-            "&bShift左击: &7放置储存",
-            "&bShift右击: &7撤回储存"
+            "&aQuick Actions",
+            "&bLeft Click: &7Withdraw 1 item",
+            "&bRight Click: &7Withdraw 1 stack",
+            "&bShift Left Click: &7Deposit inventory",
+            "&bShift Right Click: &7Withdraw inventory"
     );
     private static final ItemStack LOADING_ITEM = new CustomItemStack(Material.CYAN_STAINED_GLASS_PANE,
-            "&b状态",
-            "&7加载中..."
+            "&bStatus",
+            "&7Loading..."
     );
 
     final int max;

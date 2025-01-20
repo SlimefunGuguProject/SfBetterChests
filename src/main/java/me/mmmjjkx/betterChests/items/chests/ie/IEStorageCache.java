@@ -38,9 +38,9 @@ import static me.mmmjjkx.betterChests.items.chests.ie.IEStorageUnit.*;
 public final class IEStorageCache {
 
     /* Menu strings */
-    private static final String EMPTY_DISPLAY_NAME = ChatColor.WHITE + "空";
-    private static final String VOID_EXCESS_TRUE = ChatColors.color("&7无效超额:&e true");
-    private static final String VOID_EXCESS_FALSE = ChatColors.color("&7无效超额:&e false");
+    private static final String EMPTY_DISPLAY_NAME = ChatColor.WHITE + "Empty";
+    private static final String VOID_EXCESS_TRUE = ChatColors.color("&7Void Excess:&e true");
+    private static final String VOID_EXCESS_FALSE = ChatColors.color("&7Void Excess:&e false");
 
     /* BlockStorage keys */
     private static final String STORED_AMOUNT = "stored"; // amount key in block data
@@ -48,7 +48,7 @@ public final class IEStorageCache {
 
     /* Menu Items */
     private static final ItemStack EMPTY_ITEM = new CustomItemStack(Material.BARRIER, meta -> {
-        meta.setDisplayName(ChatColor.WHITE + "空");
+        meta.setDisplayName(ChatColor.WHITE + "Empty");
         meta.getPersistentDataContainer().set(EMPTY_KEY, PersistentDataType.BYTE, (byte) 1);
     });
 
@@ -237,7 +237,7 @@ public final class IEStorageCache {
         Block b = e.getBlock();
         ItemStack drop = this.storageUnit.getItem().clone();
         drop.setItemMeta(IEStorageUnit.saveToStack(drop.getItemMeta(), this.storageUnit.getDisplayingItem(b), this.displayName, this.amount));
-        e.getPlayer().sendMessage(ChatColor.GREEN + "存储的物品转移到丢弃的物品");
+        e.getPlayer().sendMessage(ChatColor.GREEN + "Stored items transferred to dropped item");
         drops.add(drop);
         b.removeMetadata("ie_item", BetterChests.INSTANCE);
     }
@@ -351,7 +351,7 @@ public final class IEStorageCache {
 
     private void updateStatus() {
         this.menu.replaceExistingItem(STATUS_SLOT, new CustomItemStack(Material.CYAN_STAINED_GLASS_PANE, meta -> {
-            meta.setDisplayName(ChatColor.AQUA + "状态");
+            meta.setDisplayName(ChatColor.AQUA + "Status");
             List<String> lore = new ArrayList<>();
             if (this.amount == 0) {
                 lore.add(ChatColors.color("&6Stored: &e0 / " + format(this.storageUnit.max) + " &7(0%)"));
@@ -362,7 +362,7 @@ public final class IEStorageCache {
                 ));
             }
             lore.add(this.voidExcess ? VOID_EXCESS_TRUE : VOID_EXCESS_FALSE);
-            lore.add(ChatColor.GRAY + "(单击切换)");
+            lore.add(ChatColor.GRAY + "(Click to toggle)");
             meta.setLore(lore);
         }), false);
     }

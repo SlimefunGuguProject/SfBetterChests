@@ -92,23 +92,16 @@ public class LocationRecorder extends SimpleSlimefunItem<ItemUseHandler> impleme
                     Location loc = new Location(Bukkit.getWorld(world.get()), x.getAsInt(), y.getAsInt(), z.getAsInt());
 
                     if (!Slimefun.getProtectionManager().hasPermission(p, loc, Interaction.INTERACT_BLOCK)) {
-                        p.sendMessage("§c您没有权限访问此位置。");
+                        p.sendMessage("§cYou do not have permission to access this location.");
                         return;
                     }
 
                     BlockMenu menu = BlockStorage.getInventory(loc);
                     if (menu != null) {
-
-                        SlimefunItem item = BlockStorage.check(loc);
-                        if (item != null && item.getId().equals("NTW_GRID")) {
-                            p.sendMessage("§c您不能记录网络网格的位置。");
-                            return; // Networks already had remote accessor
-                        }
-
                         menu.open(p);
                     }
                 } else {
-                    p.sendMessage("§c您尚未记录位置。");
+                    p.sendMessage("§cYou haven't recorded a location yet.");
                 }
             }
         };

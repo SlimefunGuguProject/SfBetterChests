@@ -57,3 +57,9 @@ items:
     lore:
       - "&b&l在两个方块之间转移物品的好工具"
       - "&d&l放置并准备使用"
+    up: "&7&l上"
+    down: "&7&l下"
+    west: "&7&l西"
+    east: "&7&l东"
+    north: "&7&l北"
+    south: "&7&l南"
